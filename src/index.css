@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html {
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-hyum1k-MuiToolbar-root {
+    background: black;
+}
+
+.container.my-3.d-flex.justify-content-center {
+    color: white;
+}
+
+input#outlined-basic {
+    color: white;
+}
+
+input#outlined-basic {}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.mx-2.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    background: black;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.mx-2.css-sghohy-MuiButtonBase-root-MuiButton-root {}
+
+.container.my-5.w-50.shadow-sm.p-3.mb-1.bg-white.rounded.align-items-center.border.border-1 {
+    background: black;
+    /* color: wheat; */
+    background: black !important;
+    color: white;
+}
+
+.container.my-5.w-50.shadow-sm.p-3.mb-1.bg-white.rounded.align-items-center.border.border-1 {}
+
+
+
+.a {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+ 
+}
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  border: 1px solid black;
+  outline: none;
+  border-radius: 5px;
+}
+
+
+.container.w-50.shadow-sm.p-2.mb-1.bg-white.rounded.align-items-center.border.border-1 {
+    background: #DEF2F1 !IMPORTANT;
+    COLOR: black;
+    font-size: 20px;
+    font-family: cursive;
+}
+body {
+  background: #3AAFA9;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedError.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-root.MuiButton-outlined.MuiButton-outlinedError.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.css-180lf2n-MuiButtonBase-root-MuiButton-root {
+  BACKGROUND: RED;
+  COLOR: WHITE;
+}
