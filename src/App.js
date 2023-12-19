@@ -32,15 +32,15 @@ function App() {
           <TextField id="outlined-basic" label="Email" variant="outlined" className='mx-2' value={email} onChange={(event) => setemail(event.target.value)} />
           <Button variant="contained" className='mx-2' onClick={addData}>Add</Button>
         </div>
-        <div class="container my-5 w-50 shadow-sm p-3 mb-1 bg-white rounded align-items-center border border-1">
-          <div class="row">
-            <div class="col-sm">
+        <div className="container my-5 w-50 shadow-sm p-3 mb-1 bg-white rounded align-items-center border border-1">
+          <div className="row">
+            <div className="col-sm">
               <b>NAME</b>
             </div>
-            <div class="col-sm">
+            <div className="col-sm">
               <b>EMAIL</b>
             </div>
-            <div class="col-sm">
+            <div className="col-sm">
               <b>REMOVE</b>
             </div>
           </div>
@@ -49,15 +49,15 @@ function App() {
           data.map((ele, index) => {
             return (
               <>
-              <div class="container w-50 shadow-sm p-2 mb-1 bg-white rounded align-items-center ">
-                  <div class="row a" key={index}>
-                      <div class="col-sm">
+              <div className="container w-50 shadow-sm p-2 mb-1 bg-white rounded align-items-center ">
+                  <div className="row a" key={index}>
+                      <div className="col-sm">
                           {ele.name}
                       </div>
-                      <div class="col-sm">
+                      <div className="col-sm">
                           {ele.email}
                       </div>
-                      <div class="col-sm">
+                      <div className="col-sm">
                           <Button variant="outlined" color="error" onClick={()=>removeItem(index)}>
                              DELETE
                           </Button>
